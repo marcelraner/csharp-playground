@@ -1,0 +1,3 @@
+[submodule "03-sdl-clock/extern/SDL2-CS"]
+	path = 03-sdl-clock/extern/SDL2-CS
+	url = https://github.com/flibitijibibo/SDL2-CS.git
