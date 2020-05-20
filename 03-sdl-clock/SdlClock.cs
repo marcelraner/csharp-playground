@@ -102,6 +102,7 @@ namespace _03_sdl_clock
             EventLoop();
 
             // Cleanup
+            SDL.SDL_DestroyTexture(bufferTexture);
             SDL.SDL_DestroyTexture(fontTexture);
             SDL.SDL_DestroyRenderer(renderer);
             SDL.SDL_DestroyWindow(window);
